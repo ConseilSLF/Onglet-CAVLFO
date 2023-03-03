@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+  <tab>
+    <row show-border="false">
+      <block>
+        <line>
+          <spacer height="10" />
+        </line>
+        <line>
+          <cell border="none" cell-span="1" line-span="1" shaded="true">
+            <embedded-list detail-context="student.std.list.detail.cavlfo.popup" 
+                            extended-dictionary-oid="ddxOnCavlfo" 
+                            id="cavlfo"
+                            auto-resize="true"
+                            popup-height="600"
+                            popup-width="1200" 
+                            relationship="relStdStcOid" 
+                            button-position="top" 
+                            selection-type="multiple"
+                            show-blob-text="true" 
+                            warn-on-delete="true" 
+                            show-add-button="false" 
+                            show-delete-button="false" 
+                            independent-save="true">
+              <field id="stcNameView" />
+              <field alias="stc-cavlfo-niso" />
+              <field alias="stc-cavlfo-last-imported" />
+              <field alias="stc-cavlfo-nom-utilisateur-d2l" />
+              <field alias="stc-cavlfo-mdp-d2l" />
+              <field alias="stc-cavlfo-pei" />
+            </embedded-list>
+          </cell>
+        </line>
+        <line>
+          <spacer height="20" />
+        </line>
+      </block>
+    </row>
+  </tab>
+</template>
