@@ -1043,7 +1043,7 @@
       </block>
     </row>
 	<!--  Footer -->
-    <row>
+    <row show-border="false">
       <block>
         <include context="core.jsUtilities" />
          <line>
