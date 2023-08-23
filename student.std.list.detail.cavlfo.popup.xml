@@ -1056,6 +1056,8 @@
                 */
                 $(document).ready(function() {
                   $('textarea[readonly="true"]').css({ "border": "none", "padding": "0", "resize":"none", "outline":"none","box-shadow":"none","-webkit-box-shadow":"none","-moz-box-shadow":"none"});
+		  $('#saveButton').attr("style","display: none;");
+                  $('#cancelButton').attr("style","display: none;");
                 });
               </script>
          ]]></text>
