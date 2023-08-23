@@ -49,7 +49,7 @@
               <text>PEI</text>
             </cell>
             <cell cell-span="5">
-              <property label-display="hide" alias="stc-cavlfo-pei" />
+              <property label-display="hide" alias="stc-cavlfo-pei" read-only="true" />
             </cell>
           </line>
           <line>
@@ -119,10 +119,7 @@
             <text>Responsable</text>
           </cell>
           <cell cell-span="2">
-            <property label-display="hide" rows="1" alias="stc-cavlfo-respA" />
-          </cell>
-          <cell cell-span="1">
-            <text />
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-respA" />
           </cell>
         </line>
         <line>
@@ -130,10 +127,7 @@
             <text>Courriel de responsable</text>
           </cell>
           <cell cell-span="2">
-            <property label-display="hide" rows="1" alias="stc-cavlfo-resp-courrielA" />
-          </cell>
-          <cell cell-span="1">
-            <text />
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-resp-courrielA" />
           </cell>
         </line>
         <line>
@@ -142,9 +136,6 @@
           </cell>
           <cell cell-span="2">
             <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-ensA" />
-          </cell>
-          <cell cell-span="1">
-            <text />
           </cell>
         </line>
         <line>
@@ -208,10 +199,7 @@
             <text>Responsable</text>
           </cell>
           <cell cell-span="2">
-            <property label-display="hide" rows="1" alias="stc-cavlfo-respB" />
-          </cell>
-          <cell cell-span="1">
-            <text />
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-respB" />
           </cell>
         </line>
         <line>
@@ -219,10 +207,7 @@
             <text>Courriel de responsable</text>
           </cell>
           <cell cell-span="2">
-            <property label-display="hide" rows="1" alias="stc-cavlfo-resp-courrielB" />
-          </cell>
-          <cell cell-span="1">
-            <text />
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-resp-courrielB" />
           </cell>
         </line>
         <line>
@@ -231,9 +216,6 @@
           </cell>
           <cell cell-span="2">
             <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-ensB" />
-          </cell>
-          <cell cell-span="1">
-            <text />
           </cell>
         </line>
         <line>
@@ -297,10 +279,7 @@
             <text>Responsable</text>
           </cell>
           <cell cell-span="2">
-            <property label-display="hide" rows="1" alias="stc-cavlfo-respC" />
-          </cell>
-          <cell cell-span="1">
-            <text />
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-respC" />
           </cell>
         </line>
         <line>
@@ -308,10 +287,7 @@
             <text>Courriel de responsable</text>
           </cell>
           <cell cell-span="2">
-            <property label-display="hide" rows="1" alias="stc-cavlfo-resp-courrielC" />
-          </cell>
-          <cell cell-span="1">
-            <text />
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-resp-courrielC" />
           </cell>
         </line>
         <line>
@@ -320,9 +296,6 @@
           </cell>
           <cell cell-span="2">
             <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-ensC" />
-          </cell>
-          <cell cell-span="1">
-            <text />
           </cell>
         </line>
         <line>
@@ -388,10 +361,7 @@
             <text>Responsable</text>
           </cell>
           <cell cell-span="2">
-            <property label-display="hide" rows="1" alias="stc-cavlfo-respD" />
-          </cell>
-          <cell cell-span="1">
-            <text />
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-respD" />
           </cell>
         </line>
         <line>
@@ -399,10 +369,7 @@
             <text>Courriel de responsable</text>
           </cell>
           <cell cell-span="2">
-            <property label-display="hide" rows="1" alias="stc-cavlfo-resp-courrielD" />
-          </cell>
-          <cell cell-span="1">
-            <text />
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-resp-courrielD" />
           </cell>
         </line>
         <line>
@@ -411,9 +378,6 @@
           </cell>
           <cell cell-span="2">
             <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-ensD" />
-          </cell>
-          <cell cell-span="1">
-            <text />
           </cell>
         </line>
         <line>
@@ -477,10 +441,7 @@
             <text>Responsable</text>
           </cell>
           <cell cell-span="2">
-            <property label-display="hide" rows="1" alias="stc-cavlfo-respE" />
-          </cell>
-          <cell cell-span="1">
-            <text />
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-respE" />
           </cell>
         </line>
         <line>
@@ -488,10 +449,7 @@
             <text>Courriel de responsable</text>
           </cell>
           <cell cell-span="2">
-            <property label-display="hide" rows="1" alias="stc-cavlfo-resp-courrielE" />
-          </cell>
-          <cell cell-span="1">
-            <text />
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-resp-courrielE" />
           </cell>
         </line>
         <line>
@@ -500,9 +458,6 @@
           </cell>
           <cell cell-span="2">
             <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-ensE" />
-          </cell>
-          <cell cell-span="1">
-            <text />
           </cell>
         </line>
         <line>
@@ -566,10 +521,7 @@
             <text>Responsable</text>
           </cell>
           <cell cell-span="2">
-            <property label-display="hide" rows="1" alias="stc-cavlfo-respF" />
-          </cell>
-          <cell cell-span="1">
-            <text />
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-respF" />
           </cell>
         </line>
         <line>
@@ -577,10 +529,7 @@
             <text>Courriel de responsable</text>
           </cell>
           <cell cell-span="2">
-            <property label-display="hide" rows="1" alias="stc-cavlfo-resp-courrielF" />
-          </cell>
-          <cell cell-span="1">
-            <text />
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-resp-courrielF" />
           </cell>
         </line>
         <line>
@@ -589,9 +538,6 @@
           </cell>
           <cell cell-span="2">
             <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-ensF" />
-          </cell>
-          <cell cell-span="1">
-            <text />
           </cell>
         </line>
         <line>
@@ -657,10 +603,7 @@
             <text>Responsable</text>
           </cell>
           <cell cell-span="2">
-            <property label-display="hide" rows="1" alias="stc-cavlfo-respG" />
-          </cell>
-          <cell cell-span="1">
-            <text />
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-respG" />
           </cell>
         </line>
         <line>
@@ -668,10 +611,7 @@
             <text>Courriel de responsable</text>
           </cell>
           <cell cell-span="2">
-            <property label-display="hide" rows="1" alias="stc-cavlfo-resp-courrielG" />
-          </cell>
-          <cell cell-span="1">
-            <text />
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-resp-courrielG" />
           </cell>
         </line>
         <line>
@@ -680,9 +620,6 @@
           </cell>
           <cell cell-span="2">
             <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-ensG" />
-          </cell>
-          <cell cell-span="1">
-            <text />
           </cell>
         </line>
         <line>
@@ -746,10 +683,7 @@
             <text>Responsable</text>
           </cell>
           <cell cell-span="2">
-            <property label-display="hide" rows="1" alias="stc-cavlfo-respH" />
-          </cell>
-          <cell cell-span="1">
-            <text />
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-respH" />
           </cell>
         </line>
         <line>
@@ -757,10 +691,7 @@
             <text>Courriel de responsable</text>
           </cell>
           <cell cell-span="2">
-            <property label-display="hide" rows="1" alias="stc-cavlfo-resp-courrielH" />
-          </cell>
-          <cell cell-span="1">
-            <text />
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-resp-courrielH" />
           </cell>
         </line>
         <line>
@@ -769,9 +700,6 @@
           </cell>
           <cell cell-span="2">
             <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-ensH" />
-          </cell>
-          <cell cell-span="1">
-            <text />
           </cell>
         </line>
         <line>
@@ -835,10 +763,7 @@
             <text>Responsable</text>
           </cell>
           <cell cell-span="2">
-            <property label-display="hide" rows="1" alias="stc-cavlfo-respI" />
-          </cell>
-          <cell cell-span="1">
-            <text />
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-respI" />
           </cell>
         </line>
         <line>
@@ -846,10 +771,7 @@
             <text>Courriel de responsable</text>
           </cell>
           <cell cell-span="2">
-            <property label-display="hide" rows="1" alias="stc-cavlfo-resp-courrielI" />
-          </cell>
-          <cell cell-span="1">
-            <text />
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-resp-courrielI" />
           </cell>
         </line>
         <line>
@@ -858,9 +780,6 @@
           </cell>
           <cell cell-span="2">
             <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-ensI" />
-          </cell>
-          <cell cell-span="1">
-            <text />
           </cell>
         </line>
         <line>
@@ -926,10 +845,7 @@
             <text>Responsable</text>
           </cell>
           <cell cell-span="2">
-            <property label-display="hide" rows="1" alias="stc-cavlfo-respJ" />
-          </cell>
-          <cell cell-span="1">
-            <text />
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-respJ" />
           </cell>
         </line>
         <line>
@@ -937,10 +853,7 @@
             <text>Courriel de responsable</text>
           </cell>
           <cell cell-span="2">
-            <property label-display="hide" rows="1" alias="stc-cavlfo-resp-courrielJ" />
-          </cell>
-          <cell cell-span="1">
-            <text />
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-resp-courrielJ" />
           </cell>
         </line>
         <line>
@@ -949,9 +862,6 @@
           </cell>
           <cell cell-span="2">
             <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-ensJ" />
-          </cell>
-          <cell cell-span="1">
-            <text />
           </cell>
         </line>
         <line>
@@ -1015,10 +925,7 @@
             <text>Responsable</text>
           </cell>
           <cell cell-span="2">
-            <property label-display="hide" rows="1" alias="stc-cavlfo-respK" />
-          </cell>
-          <cell cell-span="1">
-            <text />
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-respK" />
           </cell>
         </line>
         <line>
@@ -1026,10 +933,7 @@
             <text>Courriel de responsable</text>
           </cell>
           <cell cell-span="2">
-            <property label-display="hide" rows="1" alias="stc-cavlfo-resp-courrielK" />
-          </cell>
-          <cell cell-span="1">
-            <text />
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-resp-courrielK" />
           </cell>
         </line>
         <line>
@@ -1038,9 +942,6 @@
           </cell>
           <cell cell-span="2">
             <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-ensK" />
-          </cell>
-          <cell cell-span="1">
-            <text />
           </cell>
         </line>
         <line>
@@ -1104,10 +1005,7 @@
             <text>Responsable</text>
           </cell>
           <cell cell-span="2">
-            <property label-display="hide" rows="1" alias="stc-cavlfo-respL" />
-          </cell>
-          <cell cell-span="1">
-            <text />
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-respL" />
           </cell>
         </line>
         <line>
@@ -1115,10 +1013,7 @@
             <text>Courriel de responsable</text>
           </cell>
           <cell cell-span="2">
-            <property label-display="hide" rows="1" alias="stc-cavlfo-resp-courrielL" />
-          </cell>
-          <cell cell-span="1">
-            <text />
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-resp-courrielL" />
           </cell>
         </line>
         <line>
@@ -1127,9 +1022,6 @@
           </cell>
           <cell cell-span="2">
             <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-ensL" />
-          </cell>
-          <cell cell-span="1">
-            <text />
           </cell>
         </line>
         <line>
@@ -1150,7 +1042,7 @@
         </line>
       </block>
     </row>
-    <!--  Footer -->
+	<!--  Footer -->
     <row>
       <block>
         <include context="core.jsUtilities" />
@@ -1164,8 +1056,6 @@
                 */
                 $(document).ready(function() {
                   $('textarea[readonly="true"]').css({ "border": "none", "padding": "0", "resize":"none", "outline":"none","box-shadow":"none","-webkit-box-shadow":"none","-moz-box-shadow":"none"});
-                  $('#saveButton').attr("style","position: absolute; top: 100px; left:460px;background-color: green;");
-                  $('#cancelButton').attr("style","position: absolute; top: 100px; left:580px;background-color: red;");
                 });
               </script>
          ]]></text>
@@ -1174,5 +1064,4 @@
       </block>
     </row>
   </tab>
-
 </template>
