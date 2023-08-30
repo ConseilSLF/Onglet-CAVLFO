@@ -1164,8 +1164,8 @@
                 */
                 $(document).ready(function() {
                   $('textarea[readonly="true"]').css({ "border": "none", "padding": "0", "resize":"none", "outline":"none","box-shadow":"none","-webkit-box-shadow":"none","-moz-box-shadow":"none"});
-                  $('#saveButton').attr("style","position: absolute; top: 100px; left:480px;background-color: green;");
-                  $('#cancelButton').attr("style","position: absolute; top: 100px; left:560px;background-color: red;");
+                  $('#saveButton').attr("style","position: absolute; top: 100px; left:460px;background-color: green;");
+                  $('#cancelButton').attr("style","position: absolute; top: 100px; left:580px;background-color: red;");
                 });
               </script>
          ]]></text>
