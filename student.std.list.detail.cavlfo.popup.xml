@@ -1176,3 +1176,1073 @@
   </tab>
 
 </template>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+  <tab>
+    <row show-border="true">
+      <block>        
+	      <line>
+	        <cell>
+	          <text bold="true" source="resource" font-size="large">label.template.cavlfo.header</text>
+	          <horizontal-rule />
+	        </cell>
+	      </line>
+          <line>
+            <spacer height="3" />
+          </line>
+          <line>
+            <cell border="none" cell-span="1" line-span="1" shaded="true">
+              <text>Nom de l'étudiant</text>
+            </cell>
+            <cell cell-span="5">
+              <property label-display="hide" id="stcNameView" read-only="true" />
+            </cell>
+          </line>
+          <line>
+            <cell border="none" cell-span="1" line-span="1" shaded="true">
+              <text>NISO</text>
+            </cell>
+            <cell cell-span="5">
+              <property label-display="hide" alias="stc-cavlfo-niso" read-only="true" />
+            </cell>
+          </line>
+          <line>
+            <cell border="none" cell-span="1" line-span="1" shaded="true">
+              <text>Nom utilisateur D2L</text>
+            </cell>
+            <cell cell-span="5">
+              <property label-display="hide" alias="stc-cavlfo-nom-utilisateur-d2l" read-only="true" />
+            </cell>
+          </line>
+          <line>
+            <cell border="none" cell-span="1" line-span="1" shaded="true">
+              <text>MDP D2L</text>
+            </cell>
+            <cell cell-span="5">
+              <property label-display="hide" alias="stc-cavlfo-mdp-d2l" read-only="true" />
+            </cell>
+          </line>
+          <line>
+            <cell border="none" cell-span="1" line-span="1" shaded="true">
+              <text>PEI</text>
+            </cell>
+            <cell cell-span="5">
+              <property label-display="hide" alias="stc-cavlfo-pei" read-only="true" />
+            </cell>
+          </line>
+          <line>
+            <cell border="none" cell-span="1" line-span="1" shaded="true">
+              <text>Date d'import</text>
+            </cell>
+            <cell cell-span="5">
+              <property label-display="hide" alias="stc-cavlfo-last-imported" read-only="true" />
+            </cell>
+          </line>
+          <line>
+            <spacer height="10" />
+          </line>
+          <line>
+            <cell>
+              <text bold="true" source="resource" font-size="large">label.template.cavlfo.courses</text>
+              <horizontal-rule />
+            </cell>
+          </line>
+          <line>
+            <spacer height="3" />
+          </line>
+     </block>
+   </row>
+  <row show-border="true">
+    <!--  Course A -->
+    <block>
+        <line>
+          <cell shaded="#a6dced">
+            <text font-size="medium" bold="true">Cours A</text>
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Cours</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" read-only="true" alias="stc-cavlfo-coursA" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Semestre</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" read-only="true" alias="stc-cavlfo-semA" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Term</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" read-only="true" alias="stc-cavlfo-termA" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Statut</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="20" read-only="true" alias="stc-cavlfo-statutA" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Responsable</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-respA" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Courriel de responsable</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-resp-courrielA" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Enseignant</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-ensA" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Note</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" alias="stc-cavlfo-noteA" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Note Fin</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" alias="stc-cavlfo-note-finA" />
+          </cell>
+        </line>
+      </block>
+    <!--  Course B -->
+    <block>
+        <line>
+          <cell shaded="#a6dced">
+            <text font-size="medium" bold="true">Cours B</text>
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Cours</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" read-only="true" alias="stc-cavlfo-coursB" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Semestre</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" read-only="true" alias="stc-cavlfo-semB" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Term</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" read-only="true" alias="stc-cavlfo-termB" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Statut</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="20" read-only="true" alias="stc-cavlfo-statutB" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Responsable</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-respB" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Courriel de responsable</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-resp-courrielB" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Enseignant</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-ensB" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Note</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" alias="stc-cavlfo-noteB" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Note Fin</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" alias="stc-cavlfo-note-finB" />
+          </cell>
+        </line>
+      </block>
+    <!--  Course C -->
+    <block>
+        <line>
+          <cell shaded="#a6dced">
+            <text font-size="medium" bold="true">Cours C</text>
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Cours</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" read-only="true" alias="stc-cavlfo-coursC" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Semestre</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" read-only="true" alias="stc-cavlfo-semC" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Term</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" read-only="true" alias="stc-cavlfo-termC" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Statut</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="20" read-only="true" alias="stc-cavlfo-statutC" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Responsable</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-respC" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Courriel de responsable</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-resp-courrielC" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Enseignant</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-ensC" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Note</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" alias="stc-cavlfo-noteC" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Note Fin</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" alias="stc-cavlfo-note-finC" />
+          </cell>
+        </line>
+      </block>
+   </row>
+   <row show-border="true">  
+    <!--  Course D -->
+    <block>
+        <line>
+          <cell shaded="#a6dced">
+            <text font-size="medium" bold="true">Cours D</text>
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Cours</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" read-only="true" alias="stc-cavlfo-coursD" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Semestre</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" read-only="true" alias="stc-cavlfo-semD" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Term</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" read-only="true" alias="stc-cavlfo-termD" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Statut</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="20" read-only="true" alias="stc-cavlfo-statutD" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Responsable</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-respD" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Courriel de responsable</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-resp-courrielD" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Enseignant</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-ensD" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Note</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" alias="stc-cavlfo-noteD" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Note Fin</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" alias="stc-cavlfo-note-finD" />
+          </cell>
+        </line>
+      </block>    
+    <!--  Course E -->
+    <block>
+        <line>
+          <cell shaded="#a6dced">
+            <text font-size="medium" bold="true">Cours E</text>
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Cours</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" read-only="true" alias="stc-cavlfo-coursE" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Semestre</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" read-only="true" alias="stc-cavlfo-semE" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Term</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" read-only="true" alias="stc-cavlfo-termE" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Statut</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="20" read-only="true" alias="stc-cavlfo-statutE" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Responsable</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-respE" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Courriel de responsable</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-resp-courrielE" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Enseignant</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-ensE" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Note</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" alias="stc-cavlfo-noteE" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Note Fin</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" alias="stc-cavlfo-note-finE" />
+          </cell>
+        </line>
+      </block>
+    <!--  Course F -->
+    <block>
+        <line>
+          <cell shaded="#a6dced">
+            <text font-size="medium" bold="true">Cours F</text>
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Cours</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" read-only="true" alias="stc-cavlfo-coursF" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Semestre</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" read-only="true" alias="stc-cavlfo-semF" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Term</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" read-only="true" alias="stc-cavlfo-termF" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Statut</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="20" read-only="true" alias="stc-cavlfo-statutF" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Responsable</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-respF" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Courriel de responsable</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-resp-courrielF" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Enseignant</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-ensF" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Note</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" alias="stc-cavlfo-noteF" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Note Fin</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" alias="stc-cavlfo-note-finF" />
+          </cell>
+        </line>
+      </block>
+   </row>
+   <row show-border="true">   
+    <!--  Course G -->
+    <block>
+        <line>
+          <cell shaded="#a6dced">
+            <text font-size="medium" bold="true">Cours G</text>
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Cours</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" read-only="true" alias="stc-cavlfo-coursG" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Semestre</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" read-only="true" alias="stc-cavlfo-semG" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Term</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" read-only="true" alias="stc-cavlfo-termG" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Statut</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="20" read-only="true" alias="stc-cavlfo-statutG" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Responsable</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-respG" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Courriel de responsable</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-resp-courrielG" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Enseignant</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-ensG" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Note</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" alias="stc-cavlfo-noteG" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Note Fin</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" alias="stc-cavlfo-note-finG" />
+          </cell>
+        </line>
+      </block>
+    <!--  Course H -->
+    <block>
+        <line>
+          <cell shaded="#a6dced">
+            <text font-size="medium" bold="true">Cours H</text>
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Cours</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" read-only="true" alias="stc-cavlfo-coursH" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Semestre</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" read-only="true" alias="stc-cavlfo-semH" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Term</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" read-only="true" alias="stc-cavlfo-termH" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Statut</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="20" read-only="true" alias="stc-cavlfo-statutH" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Responsable</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-respH" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Courriel de responsable</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-resp-courrielH" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Enseignant</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-ensH" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Note</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" alias="stc-cavlfo-noteH" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Note Fin</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" alias="stc-cavlfo-note-finH" />
+          </cell>
+        </line>
+      </block>
+    <!--  Course I -->
+    <block>
+        <line>
+          <cell shaded="#a6dced">
+            <text font-size="medium" bold="true">Cours I</text>
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Cours</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" read-only="true" alias="stc-cavlfo-coursI" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Semestre</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" read-only="true" alias="stc-cavlfo-semI" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Term</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" read-only="true" alias="stc-cavlfo-termI" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Statut</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="20" read-only="true" alias="stc-cavlfo-statutI" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Responsable</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-respI" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Courriel de responsable</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-resp-courrielI" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Enseignant</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-ensI" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Note</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" alias="stc-cavlfo-noteI" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Note Fin</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" alias="stc-cavlfo-note-finI" />
+          </cell>
+        </line>
+      </block>
+   </row>
+   <row show-border="true">  
+    <!--  Course J -->
+    <block>
+        <line>
+          <cell shaded="#a6dced">
+            <text font-size="medium" bold="true">Cours J</text>
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Cours</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" read-only="true" alias="stc-cavlfo-coursJ" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Semestre</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" read-only="true" alias="stc-cavlfo-semJ" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Term</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" read-only="true" alias="stc-cavlfo-termJ" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Statut</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="20" read-only="true" alias="stc-cavlfo-statutJ" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Responsable</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-respJ" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Courriel de responsable</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-resp-courrielJ" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Enseignant</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-ensJ" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Note</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" alias="stc-cavlfo-noteJ" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Note Fin</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" alias="stc-cavlfo-note-finJ" />
+          </cell>
+        </line>
+      </block>
+    <!--  Course K -->
+    <block>
+        <line>
+          <cell shaded="#a6dced">
+            <text font-size="medium" bold="true">Cours K</text>
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Cours</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" read-only="true" alias="stc-cavlfo-coursK" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Semestre</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" read-only="true" alias="stc-cavlfo-semK" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Term</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" read-only="true" alias="stc-cavlfo-termK" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Statut</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="20" read-only="true" alias="stc-cavlfo-statutK" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Responsable</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-respK" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Courriel de responsable</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-resp-courrielK" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Enseignant</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-ensK" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Note</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" alias="stc-cavlfo-noteK" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Note Fin</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" alias="stc-cavlfo-note-finK" />
+          </cell>
+        </line>
+      </block>
+    <!--  Course L -->
+    <block>
+        <line>
+          <cell shaded="#a6dced">
+            <text font-size="medium" bold="true">Cours L</text>
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Cours</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" read-only="true" alias="stc-cavlfo-coursL" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Semestre</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" read-only="true" alias="stc-cavlfo-semL" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Term</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" read-only="true" alias="stc-cavlfo-termL" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Statut</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="20" read-only="true" alias="stc-cavlfo-statutL" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Responsable</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-respL" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Courriel de responsable</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-resp-courrielL" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Enseignant</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" rows="1" read-only="true" alias="stc-cavlfo-ensL" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Note</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" alias="stc-cavlfo-noteL" />
+          </cell>
+        </line>
+        <line>
+          <cell border="none" cell-span="2" line-span="1" shaded="true">
+            <text>Note Fin</text>
+          </cell>
+          <cell cell-span="2">
+            <property label-display="hide" size="10" alias="stc-cavlfo-note-finL" />
+          </cell>
+        </line>
+      </block>
+    </row>
+	<!--  Footer -->
+    <row show-border="false">
+      <block>
+        <include context="core.jsUtilities" />
+         <line>
+          <cell>
+            <text><![CDATA[
+              <script language="JavaScript" >
+               
+                /*
+                * Onload.
+                */
+                $(document).ready(function() {
+                  $('textarea[readonly="true"]').css({ "border": "none", "padding": "0", "resize":"none", "outline":"none","box-shadow":"none","-webkit-box-shadow":"none","-moz-box-shadow":"none"});
+		  $('#saveButton').attr("style","display: none;");
+                  $('#cancelButton').attr("style","display: none;");
+                });
+              </script>
+         ]]></text>
+          </cell>
+        </line>
+      </block>
+    </row>
+  </tab>
+</template>

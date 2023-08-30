@@ -22,8 +22,8 @@ Recherchez :
 
 
 ## Mettez à jour le code pour les 2 gabarits
-###Interface
+### Interface
 ![Interface](./eleve_cours_formulaire_cavlfo.png "eleve_cours_formulaire_cavlfo.png")
 
-###Modifier
+### Modifier
 ![Tâche cédulable](./eleve_cours_formulaire_cavlfo_edit.png "eleve_cours_formulaire_cavlfo_edit.png")
